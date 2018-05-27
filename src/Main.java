@@ -5,9 +5,8 @@ public class Main {
      */
 
     public static void main(String[] args) {
-        Main main = new Main();
-//        int result = main.hammingDistance(1,4);
-        System.out.print(main.judgeCircle("LLURDR"));
+        Codec coder = new Codec();
+        System.out.println(coder.decode(coder.encode("https://leetcode.com/problems/design-tinyurl")));
     }
     public int hammingDistance(int x, int y) {
         int i = 0;
