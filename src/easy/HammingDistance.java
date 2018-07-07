@@ -1,4 +1,6 @@
-public class Main {
+package easy;
+
+public class HammingDistance {
     /**
      * HammingDistance
      * @param args

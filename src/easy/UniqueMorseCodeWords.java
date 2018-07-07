@@ -1,5 +1,10 @@
+package easy;
+
 import java.util.HashSet;
 
+/**
+ * https://leetcode.com/problems/unique-morse-code-words/description/
+ */
 public class UniqueMorseCodeWords {
     public int uniqueMorseRepresentations(String[] words) {
         String[] codes = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
