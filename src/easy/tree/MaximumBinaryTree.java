@@ -1,4 +1,4 @@
-package easy;
+package easy.tree;
 
 /**
  * Given an integer array with no duplicates. A maximum tree building on this array is defined as follow:
