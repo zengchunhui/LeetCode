@@ -13,7 +13,7 @@ public class BinaryTreePruning {
         }
         root.left = pruneTree(root.left);
         root.right = pruneTree(root.right);
-        if ((null != root.left && root.left.val == 1) || (null != root.right && root.right.val == 1) || (root.val == 1)) {
+        if ((null != root.left) || (null != root.right) || (root.val == 1)) {
             return root;
         } else {
             return null;
