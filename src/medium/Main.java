@@ -4,16 +4,12 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int[][] A = {{1,2}, {2}, {3,4}, {4},{}};
-        AllPaths paths = new AllPaths();
-        List<List<Integer>> result = paths.allPathsSourceTarget(A);
-        System.out.println(result.toArray());
-//        for (int i = 0; i < A.length; i++) {
-//            for (int j = 0; j < A[0].length; j++) {
-//                System.out.print(A[i][j]);
-//            }
-//            System.out.println();
-//        }
-//        System.out.println(result);
+        Number n = 0.0;
+        Class<? extends Number> nClass = n.getClass();
+        System.out.println(nClass.equals(Double.class));
+
+        Number n2 = 0;
+        Class<? extends Number> n2Class = n.getClass();
+        System.out.println(nClass.equals(Integer.class));
     }
 }
